@@ -1,10 +1,14 @@
-## Thera-lang
+# Thera
 
-<!--
+Thera is a proof-of-concept programming language designed to maximize the
+productivity of LLMs and coding agents: strong static typing, errors as values,
+immutability by default, brace-delimited syntax, and a batteries-included
+standard library. The name is a nod to the
+[Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism).
 
-**Here are some ideas to get you started:**
+## Repositories
 
-- A short introduction - what is your organization all about?
-- Contribution guidelines - how can the community get involved?
-- Useful resources - where can the community find your docs? Is there anything else the community should know?
--->
+- [thera](https://github.com/thera-lang/thera) — the language: a self-hosted
+  front-end, a Rust runtime, the standard library, and design docs.
+- [thera-ext](https://github.com/thera-lang/thera-ext) — the VS Code extension:
+  syntax highlighting and the language server client.
